@@ -71,8 +71,8 @@ endfunction
 
 " Add all the default extensions
 " Mappings for C and C++
-call <SID>AddAlternateExtensionMapping('h',"c,cpp,cxx,cc,CC")
-call <SID>AddAlternateExtensionMapping('H',"C,CPP,CXX,CC")
+call <SID>AddAlternateExtensionMapping('h',"c,cpp,cc,CC")
+call <SID>AddAlternateExtensionMapping('H',"C,CPP,CC")
 call <SID>AddAlternateExtensionMapping('hpp',"cpp,c")
 call <SID>AddAlternateExtensionMapping('HPP',"CPP,C")
 call <SID>AddAlternateExtensionMapping('c',"h")
@@ -84,25 +84,25 @@ call <SID>AddAlternateExtensionMapping('CC',"H,h")
 call <SID>AddAlternateExtensionMapping('cxx',"h")
 call <SID>AddAlternateExtensionMapping('CXX',"H")
 " Mappings for PSL7
-call <SID>AddAlternateExtensionMapping('psl',"ph")
-call <SID>AddAlternateExtensionMapping('ph',"psl")
-" Mappings for ADA
-call <SID>AddAlternateExtensionMapping('adb',"ads")
-call <SID>AddAlternateExtensionMapping('ads',"adb")
-" Mappings for lex and yacc files
-call <SID>AddAlternateExtensionMapping('l',"y,yacc,ypp")
-call <SID>AddAlternateExtensionMapping('lex',"yacc,y,ypp")
-call <SID>AddAlternateExtensionMapping('lpp',"ypp,y,yacc")
-call <SID>AddAlternateExtensionMapping('y',"l,lex,lpp")
-call <SID>AddAlternateExtensionMapping('yacc',"lex,l,lpp")
-call <SID>AddAlternateExtensionMapping('ypp',"lpp,l,lex")
-" Mappings for OCaml
-call <SID>AddAlternateExtensionMapping('ml',"mli")
-call <SID>AddAlternateExtensionMapping('mli',"ml")
-" ASP stuff
-call <SID>AddAlternateExtensionMapping('aspx.cs', 'aspx')
-call <SID>AddAlternateExtensionMapping('aspx.vb', 'aspx')
-call <SID>AddAlternateExtensionMapping('aspx', 'aspx.cs,aspx.vb')
+"call <SID>AddAlternateExtensionMapping('psl',"ph")
+"call <SID>AddAlternateExtensionMapping('ph',"psl")
+"" Mappings for ADA
+"call <SID>AddAlternateExtensionMapping('adb',"ads")
+"call <SID>AddAlternateExtensionMapping('ads',"adb")
+"" Mappings for lex and yacc files
+"call <SID>AddAlternateExtensionMapping('l',"y,yacc,ypp")
+"call <SID>AddAlternateExtensionMapping('lex',"yacc,y,ypp")
+"call <SID>AddAlternateExtensionMapping('lpp',"ypp,y,yacc")
+"call <SID>AddAlternateExtensionMapping('y',"l,lex,lpp")
+"call <SID>AddAlternateExtensionMapping('yacc',"lex,l,lpp")
+"call <SID>AddAlternateExtensionMapping('ypp',"lpp,l,lex")
+"" Mappings for OCaml
+"call <SID>AddAlternateExtensionMapping('ml',"mli")
+"call <SID>AddAlternateExtensionMapping('mli',"ml")
+"" ASP stuff
+"call <SID>AddAlternateExtensionMapping('aspx.cs', 'aspx')
+"call <SID>AddAlternateExtensionMapping('aspx.vb', 'aspx')
+"call <SID>AddAlternateExtensionMapping('aspx', 'aspx.cs,aspx.vb')
 
 " Setup default search path, unless the user has specified
 " a path in their [._]vimrc. 
